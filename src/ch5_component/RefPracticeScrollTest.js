@@ -7,7 +7,6 @@
 import React, { useRef } from "react";
 import styled from "styled-components";
 import { Button } from "antd";
-import { Component } from "react";
 
 const RefPracticeScrollTest = () => {
   const box = useRef(null);

@@ -2,7 +2,6 @@
 // rcc
 import React, { Component } from "react";
 import { Button } from "antd";
-import { styled } from "styled-components";
 
 class LifeCycleTest extends Component {
   // 클래스형 컴포넌트에 사용되는 초깃값 세팅 모양.
