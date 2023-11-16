@@ -15,7 +15,7 @@ const InfoTestUseEffect = () => {
       console.log("후처리 함수 호출 ");
       console.log(name);
     };
-  }, [name]);
+  }, [name, nickname]);
   const [visible, setVisible] = useState(false);
 
   const onChangeName = (e) => {

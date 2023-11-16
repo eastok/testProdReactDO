@@ -39,15 +39,11 @@ const NewsItem = ({ article }) => {
     <NewsItemCss>
       {urlToImage && (
         <div className="thumbnail">
-          <a href={url} target="_blank" rel="noopenr noreferrer" />
           <img src={urlToImage} alt="thumbnail" />
         </div>
       )}
       <div className="contents">
-        <h2>
-          <a href={url} target="_blank" rel="noopenr noreferrer" />
-          {title}
-        </h2>
+        <h2>{title}</h2>
         <p>{description}</p>
       </div>
     </NewsItemCss>
