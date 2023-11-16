@@ -34,7 +34,7 @@ const NewsItemCss = styled.div`
 `;
 
 const NewsItem = ({ article }) => {
-  const { title, description, url, urlToImage } = article;
+  const { title, description, urlToImage } = article;
   return (
     <NewsItemCss>
       {urlToImage && (
